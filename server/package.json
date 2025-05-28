@@ -7,7 +7,9 @@
     "build": "npx tsc",
     "start": "npx tsc && node .dist/server.js",
     "dev": "nodemon",
-    "format": "prettier --write \"src/**/*.{js,ts,json,html}\""
+    
+    "format": "prettier --write \"src/**/*.{js,ts,json,html}\"",
+    "f": "prettier --write \"src/**/*.{js,ts,json,html}\""
   },
   "author": "Naveen Hiremath",
   "license": "ISC",
