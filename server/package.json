@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "This project contains url shortner apis",
   "main": "server.js",
-  
   "scripts": {
-    "build":"npx tsc",
+    "build": "npx tsc",
     "start": "npx tsc && node .dist/server.js",
     "dev": "nodemon",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write \"src/**/*.{js,ts,json,html}\""
   },
   "author": "Naveen Hiremath",
   "license": "ISC",
@@ -25,6 +24,7 @@
     "@types/mongoose": "^5.11.97",
     "@types/node": "^22.15.23",
     "nodemon": "^3.1.10",
+    "prettier": "^3.5.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
